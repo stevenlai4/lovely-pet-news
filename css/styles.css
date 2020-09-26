@@ -1,0 +1,51 @@
+h2 {
+    font-size: 5vw;
+}
+
+nav {
+    background-color: #2b2d42;
+}
+
+.carousel-item {
+    max-height: 65vh;
+}
+
+.container {
+    width: 95%;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    margin: 5% 0;
+}
+
+footer {
+    background-color: #2b2d42;
+    height: 140px;
+    padding: 0 10%;
+}
+
+footer > div {
+    height: 100%;
+    width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    #news-content {
+        max-height: 200px;
+    }
+
+    #subscribe,
+    #pet-events {
+        width: 50%;
+    }
+
+    #subscribe {
+        border-left: 2px solid;
+    }
+
+    footer {
+        padding: 0 30%;
+    }
+}
